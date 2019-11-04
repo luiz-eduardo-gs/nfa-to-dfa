@@ -14,24 +14,31 @@ Python: --version 2.x/3.x/Superior
 
 # Como usar o programa:
 
-0)No diretório onde está contido o arquivo 'main.py', abra o prompt de comando (Windows) / linux shell (Linux), e digite o seguinte comando:
+0) No diretório onde está contido o arquivo 'main.py', abra o prompt de comando (Windows) / linux shell (Linux), e digite o seguinte comando:
 
 ```
     $ python main.py
 ```
 
-1)Digite o nome do arquivo teste, cujo esquema está detalhado abaixo, e o programa fará a conversão de NFA para DFA e essa será a saída do programa.
+1) Digite o nome do arquivo teste (incluindo .txt), cujo esquema está detalhado abaixo, e o programa fará a conversão de NFA para DFA e essa será a saída do programa.
 
 # ENTRADA:
 
 O arquivo de teste deve estar no seguinte formato:
 quantidade de estados
+
 simbolos
+
 conjunto de estados finais
+
 estado inicial
+
 transição 1
+
 transição 2
+
 transição n
+
 Ex.:
 
     3 
